@@ -1,0 +1,160 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  color: #40514e;
+}
+
+/* Top Section */
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding: 100px 20px 50px;
+}
+
+.title-text h1 {
+  font-size: 3rem;
+  color: #11999e;
+  font-style: italic;
+}
+
+.title-text h2 {
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.bottom-cloud {
+  width: 150px;
+  margin-top: 20px;
+}
+
+/* Middle Section */
+.middle-container {
+  padding: 50px 20px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.intro {
+  width: 60%;
+  margin: 10px auto 30px;
+}
+
+/* Skills Section */
+.skills {
+  padding: 40px 0;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+
+.my-image,
+.burger-img {
+  width: 150px;
+}
+
+.coding,
+.hot-wings {
+  text-align: left;
+}
+
+.skills h2 {
+  margin-bottom: 30px;
+  color: #11999e;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #11999e;
+}
+
+/* List Section */
+.contact-me ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-me li {
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 60%;
+  margin: 40px auto;
+}
+
+/* Footer */
+.bottom-container {
+  background-color: #11999e;
+  padding: 30px 0;
+}
+
+.footer-link {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: white;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+
+
+@media (max-width: 768px) {
+  .parent {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .coding,
+  .hot-wings {
+    text-align: center;
+  }
+
+  .intro {
+    width: 90%;
+  }
+}
